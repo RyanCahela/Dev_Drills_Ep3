@@ -21,6 +21,12 @@
   "babel": {
     "presets": [
       "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-optional-chaining"
     ]
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.11.0"
   }
 }
